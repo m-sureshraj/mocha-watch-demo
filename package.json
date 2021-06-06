@@ -1,0 +1,22 @@
+{
+  "name": "demo",
+  "version": "0.0.1",
+  "description": "demo",
+  "scripts": {
+    "test": "DEBUG=* mocha",
+    "watch": "mocha --watch",
+    "watch-interactive": "mocha --wi",
+    "debug": "DEBUG=* mocha --wi"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.18",
+    "@types/chai-as-promised": "^7.1.4",
+    "@types/mocha": "^8.2.2",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "file:mocha-8.4.0.tgz",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {}
+}
